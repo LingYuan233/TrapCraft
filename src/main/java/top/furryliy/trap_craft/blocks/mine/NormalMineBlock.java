@@ -38,6 +38,7 @@ public class NormalMineBlock extends Block {
         entity.damage(DamageSource.explosion((Explosion) null),100.0f);
     }
 
+    @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockPos blockPos = pos.down();
         return hasTopRim(world, blockPos) || sideCoversSmallSquare(world, blockPos, Direction.UP);

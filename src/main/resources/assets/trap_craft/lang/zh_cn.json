@@ -21,5 +21,6 @@
   "item.trap_craft.detonator_delay_l2": "II级延时雷管",
   "item.trap_craft.gunpowder_l2": "高级火药",
 
-  "block.trap_craft.modular_land_mine_block": "模块化地雷"
+  "block.trap_craft.modular_land_mine_block": "模块化地雷",
+  "block.trap_craft.normal_mine": "普通地雷"
 }
