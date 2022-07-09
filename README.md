@@ -23,6 +23,6 @@ Github地址: [Trap Craft](https://github.com/LingYuan233/TrapCraft)
 怎么样，是不是已经迫不及待地想去和你们好朋友(们)愉快的玩耍了嘛，那就赶紧下载吧
 
 ---
-#### Made By Ling_Yuan
+#### Made By Ling_Yuan 
 #### 该mod以MIT协议开源
 #### This mod is use MIT open source protocol
