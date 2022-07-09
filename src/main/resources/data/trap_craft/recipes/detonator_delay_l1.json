@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "item": "trap_craft:detonator_l1"
+    },
+    {
+      "item": "minecraft:clock"
+    }
+
+  ],
+
+  "result":
+  {
+    "item": "trap_craft:detonation_delay_l1",
+    "count": 1
+  }
+}

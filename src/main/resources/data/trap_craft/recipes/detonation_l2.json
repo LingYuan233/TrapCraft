@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "item": "trap_craft:detonation_l1"
+    },
+    {
+      "item": "trap_craft:gunpowder_l2"
+    },
+    {
+      "item": "trap_craft:gunpowder_l2"
+    }
+
+  ],
+
+  "result":
+  {
+    "item": "trap_craft:detonation_l2",
+    "count": 1
+  }
+}

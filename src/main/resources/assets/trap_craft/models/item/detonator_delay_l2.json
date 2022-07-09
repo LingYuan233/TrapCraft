@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "trap_craft:items/detonator_delay_l2"
+  }
+}

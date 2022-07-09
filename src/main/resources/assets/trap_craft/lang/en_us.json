@@ -1,0 +1,23 @@
+{
+  "itemGroup.trap_craft.tc_group": "Trap Craft",
+  "block.trap_craft.modular_land_mine_block": "Normal Mine",
+  "item.trap_craft.chip_p": "P Chip",
+  "item.trap_craft.chip_i": "I Chip",
+  "item.trap_craft.chip_m": "M Chip",
+  "item.trap_craft.chip_o": "S Chip",
+  "item.trap_craft.chip_p.tooltip": "Distinguish whether the entity is a player",
+  "item.trap_craft.chip_i.tooltip": "Distinguish whether the entity is a item",
+  "item.trap_craft.chip_m.tooltip": "Distinguish whether the entity is a monster",
+  "item.trap_craft.chip_o.tooltip": "Distinguish whether the entity is a player(not user)",
+  "item.trap_craft.dynamite_l1": "Dynamite I",
+  "item.trap_craft.dynamite_l2": "Dynamite II",
+  "item.trap_craft.dynamite_l3": "Dynamite III",
+  "item.trap_craft.dynamite_l4": "Dynamite IV",
+  "item.trap_craft.detonation_l1": "Detonation I",
+  "item.trap_craft.detonation_l2": "Detonation II",
+  "item.trap_craft.detonator_l1": "Detonator I",
+  "item.trap_craft.detonator_l2": "Detonator II",
+  "item.trap_craft.detonator_delay_l1": "Delay Detonator I",
+  "item.trap_craft.detonator_delay_l2": "Delay Detonator II",
+  "item.trap_craft.gunpowder_l2": "Advanced Gunpowder"
+}

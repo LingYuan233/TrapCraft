@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "trap_craft",
+  "version": "1.0",
+
+  "name": "Trap Craft",
+  "description": "添加了一些陷阱",
+  "authors": [
+    "Ling_Yuan"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/trap_craft/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.furryliy.trap_craft.TrapCraftMain"
+    ]
+  },
+  "mixins": [
+    "trap_craft.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

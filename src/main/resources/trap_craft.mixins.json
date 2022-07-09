@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.furryliy.trap_craft.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "TrapCraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

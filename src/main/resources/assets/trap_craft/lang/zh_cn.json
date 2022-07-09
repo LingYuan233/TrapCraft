@@ -1,0 +1,25 @@
+{
+  "itemGroup.trap_craft.tc_group": "陷阱工艺",
+
+  "item.trap_craft.chip_p": "P芯片",
+  "item.trap_craft.chip_i": "I芯片",
+  "item.trap_craft.chip_m": "M芯片",
+  "item.trap_craft.chip_o": "O芯片",
+  "item.trap_craft.chip_p.tooltip": "区分实体是否为玩家",
+  "item.trap_craft.chip_i.tooltip": "区分实体是否为掉落物",
+  "item.trap_craft.chip_m.tooltip": "区分实体是否为怪物",
+  "item.trap_craft.chip_o.tooltip": "区分实体是否为玩家(非使用者)",
+  "item.trap_craft.dynamite_l1": "I级炸药",
+  "item.trap_craft.dynamite_l2": "II级炸药",
+  "item.trap_craft.dynamite_l3": "III级炸药",
+  "item.trap_craft.dynamite_l4": "IV级炸药",
+  "item.trap_craft.detonation_l1": "I级起爆药",
+  "item.trap_craft.detonation_l2": "II级起爆药",
+  "item.trap_craft.detonator_l1": "I级雷管",
+  "item.trap_craft.detonator_l2": "II级雷管",
+  "item.trap_craft.detonator_delay_l1": "II级延时雷管",
+  "item.trap_craft.detonator_delay_l2": "II级延时雷管",
+  "item.trap_craft.gunpowder_l2": "高级火药",
+
+  "block.trap_craft.modular_land_mine_block": "模块化地雷"
+}

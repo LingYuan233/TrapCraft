@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " A ",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "trap_craft:gunpowder_l2"
+    },
+    "A": {
+      "item": "trap_craft:detonator_l1"
+    }
+  },
+  "result": {
+    "item": "trap_craft:detonator_l2",
+    "count": 1
+  }
+}
