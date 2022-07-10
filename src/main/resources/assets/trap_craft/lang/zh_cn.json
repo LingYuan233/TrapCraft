@@ -23,5 +23,6 @@
 
   "block.trap_craft.modular_land_mine_block": "模块化地雷",
   "block.trap_craft.normal_mine": "普通地雷",
-  "block.trap_craft.normal_mine_he": "高爆地雷"
+  "block.trap_craft.normal_mine_he": "高爆地雷",
+  "block.trap_craft.grass_trap": "草皮陷阱"
 }
