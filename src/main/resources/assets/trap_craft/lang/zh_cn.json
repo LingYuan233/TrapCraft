@@ -22,5 +22,6 @@
   "item.trap_craft.gunpowder_l2": "高级火药",
 
   "block.trap_craft.modular_land_mine_block": "模块化地雷",
-  "block.trap_craft.normal_mine": "普通地雷"
+  "block.trap_craft.normal_mine": "普通地雷",
+  "block.trap_craft.normal_mine_he": "高爆地雷"
 }

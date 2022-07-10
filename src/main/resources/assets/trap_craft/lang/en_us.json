@@ -3,6 +3,7 @@
 
   "block.trap_craft.modular_land_mine_block": "Modular Land Mine",
   "block.trap_craft.normal_mine": "Normal Mine",
+  "block.trap_craft.normal_mine_he": "High Explode Mine",
 
   "item.trap_craft.chip_p": "P Chip",
   "item.trap_craft.chip_i": "I Chip",

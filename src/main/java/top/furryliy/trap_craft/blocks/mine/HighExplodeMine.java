@@ -13,11 +13,12 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.explosion.Explosion;
 
-public class NormalMineBlock extends Block {
-    public NormalMineBlock(Settings settings) {
+public class HighExplodeMine extends Block{
+    private static final VoxelShape SHAPE = Block.createCuboidShape(3.0,0.0,3.25,13.0,0.2,13.25);
+
+    public HighExplodeMine(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(3.0,0.0,3.25,13.0,0.2,13.25);
 
     @Override
     public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
@@ -30,8 +31,8 @@ public class NormalMineBlock extends Block {
 
     @Override
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-        world.createExplosion(entity, entity.getX(), entity.getY(), entity.getZ(), 5, true, Explosion.DestructionType.DESTROY);
-        entity.damage(DamageSource.explosion((Explosion) null),100.0f);
+        world.createExplosion(entity, entity.getX(), entity.getY(), entity.getZ(), 15, true, Explosion.DestructionType.DESTROY);
+        entity.damage(DamageSource.explosion((Explosion) null),300.0f);
     }
 
     @Override
