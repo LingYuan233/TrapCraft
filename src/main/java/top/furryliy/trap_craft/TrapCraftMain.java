@@ -30,7 +30,7 @@ public class TrapCraftMain implements ModInitializer {
 
 	private static final NormalMineBlock NORMAL_MINE_BLOCK = new NormalMineBlock(setBlockSetting(Material.STONE).nonOpaque());
 	private static final HighExplodeMine HIGH_EXPLODE_MINE = new HighExplodeMine(setBlockSetting(Material.STONE).nonOpaque());
-	
+
 	@Override
 	public void onInitialize() {
 		Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "normal_mine"), NORMAL_MINE_BLOCK);
