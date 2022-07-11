@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "item": "trap_craft:normal_mine"
+    },
+    {
+      "item": "trap_craft:chip_p"
+    }
+
+  ],
+
+  "result":
+  {
+    "item": "trap_craft:normal_mine_p",
+    "count": 1
+  }
+}

@@ -1,4 +1,4 @@
-package top.furryliy.trap_craft.blocks.mine;
+package top.furryliy.trap_craft.blocks.mine.normal;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -13,8 +13,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.explosion.Explosion;
 
-public class NormalMineBlock extends Block {
-    public NormalMineBlock(Settings settings) {
+public class NormalMine extends Block {
+    public NormalMine(Settings settings) {
         super(settings);
     }
     private static final VoxelShape SHAPE = Block.createCuboidShape(3.0,0.0,3.25,13.0,0.2,13.25);

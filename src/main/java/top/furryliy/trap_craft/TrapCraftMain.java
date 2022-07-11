@@ -8,8 +8,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import top.furryliy.trap_craft.blocks.mine.HighExplodeMine;
-import top.furryliy.trap_craft.blocks.mine.NormalMineBlock;
+import top.furryliy.trap_craft.blocks.mine.MineBlock;
 import top.furryliy.trap_craft.blocks.trap.GrassTrap;
 import top.furryliy.trap_craft.item.chips.I;
 import top.furryliy.trap_craft.item.chips.M;
@@ -29,18 +28,13 @@ public class TrapCraftMain implements ModInitializer {
 	private static final O CHIP_O = new O(setItemSetting());
 	private static final P CHIP_P = new P(setItemSetting());
 
-	private static final NormalMineBlock NORMAL_MINE_BLOCK = new NormalMineBlock(setBlockSetting(Material.STONE).nonOpaque());
-	private static final HighExplodeMine HIGH_EXPLODE_MINE = new HighExplodeMine(setBlockSetting(Material.STONE).nonOpaque());
 
 	private static final GrassTrap GRASS_TRAP = new GrassTrap(setBlockSetting(Material.LEAVES));
 
 	@Override
 	public void onInitialize() {
-		Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "normal_mine"), NORMAL_MINE_BLOCK);
-		Registry.register(Registry.ITEM,  new Identifier(MOD_ID, "normal_mine"), setBlockItem(NORMAL_MINE_BLOCK));
-
-		Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "normal_mine_he"), HIGH_EXPLODE_MINE);
-		Registry.register(Registry.ITEM,  new Identifier(MOD_ID, "normal_mine_he"), setBlockItem(HIGH_EXPLODE_MINE));
+		MineBlock.register();//注册普通地雷方块组
+		//注册高爆地雷组
 
 		Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "grass_trap"), GRASS_TRAP);
 		Registry.register(Registry.ITEM,  new Identifier(MOD_ID, "grass_trap"),setBlockItem(GRASS_TRAP));

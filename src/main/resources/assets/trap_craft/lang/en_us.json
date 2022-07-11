@@ -2,8 +2,19 @@
   "itemGroup.trap_craft.tc_group": "Trap Craft",
 
   "block.trap_craft.modular_land_mine_block": "Modular Land Mine",
+
   "block.trap_craft.normal_mine": "Normal Mine",
+  "block.trap_craft.normal_mine_p": "Normal Mine - P",
+  "block.trap_craft.normal_mine_i": "Normal Mine - I",
+  "block.trap_craft.normal_mine_m": "Normal Mine - M",
+  "block.trap_craft.normal_mine_o": "Normal Mine - O",
+
   "block.trap_craft.normal_mine_he": "High Explode Mine",
+  "block.trap_craft.normal_mine_he_p": "High Explode Mine - P",
+  "block.trap_craft.normal_mine_he_i": "High Explode Mine - I",
+  "block.trap_craft.normal_mine_he_m": "High Explode Mine - M",
+  "block.trap_craft.normal_mine_he_o": "High Explode Mine - O",
+
   "block.trap_craft.grass_trap": "Grass Trap",
 
   "item.trap_craft.chip_p": "P Chip",
